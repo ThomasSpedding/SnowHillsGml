@@ -1,0 +1,92 @@
+Converting GML script: ${project_dir}\scripts\InitialiseControl\InitialiseControl.gml
+Converted builtin - line 15: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Font font0 has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\oControl\Create_0.gml
+Converted description /// @description  Initialise variables and starting hills
+
+Converting GML script: ${project_dir}\objects\oControl\Step_0.gml
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 28: view_xview = oBird.phy_position_x-150 -> __view_set( e__VW.XView, 0, oBird.phy_position_x-150 )
+Converted builtin - line 37: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview += (oBird.phy_linear_velocity_y*0.02) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + ((oBird.phy_linear_velocity_y*0.02)) )
+Converted builtin - line 40: view_yview -= (oBird.phy_linear_velocity_y*0.1) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - ((oBird.phy_linear_velocity_y*0.1)) )
+Converted builtin - line 45: view_yview -= (zoomFactor * zoomAmplifier ) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - ((zoomFactor * zoomAmplifier )) )
+Converted builtin - line 37: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 42: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview -= (oBird.phy_linear_velocity_y*0.02) -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) - ((oBird.phy_linear_velocity_y*0.02)) )
+Converted builtin - line 38: view_wview += (oBird.phy_linear_velocity_y*0.1) -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + ((oBird.phy_linear_velocity_y*0.1)) )
+Converted builtin - line 43: view_wview += (zoomFactor * zoomAmplifier ) -> __view_set( e__VW.WView, 0, __view_get( e__VW.WView, 0 ) + ((zoomFactor * zoomAmplifier )) )
+Converted builtin - line 31: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 37: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 37: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 42: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 42: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview -= (oBird.phy_linear_velocity_y*0.02) -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) - ((oBird.phy_linear_velocity_y*0.02)) )
+Converted builtin - line 39: view_hview += (oBird.phy_linear_velocity_y*0.1) -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) + ((oBird.phy_linear_velocity_y*0.1)) )
+Converted builtin - line 44: view_hview += (zoomFactor * zoomAmplifier ) -> __view_set( e__VW.HView, 0, __view_get( e__VW.HView, 0 ) + ((zoomFactor * zoomAmplifier )) )
+Converted description /// @description Update hill points and view
+
+Converting GML script: ${project_dir}\objects\oControl\Other_10.gml
+Converted description /// @description Create new hill point
+
+Converting GML script: ${project_dir}\objects\oControl\Draw_64.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  On screen info
+
+Converting GML script: ${project_dir}\objects\oControl\Draw_0.gml
+Converted description /// @description  Physics debug draw
+
+Converting GML script: ${project_dir}\objects\oControl\KeyPress_17.gml
+Converted description /// @description Toggle debug
+
+Converting GML script: ${project_dir}\objects\oHillPoint\Create_0.gml
+Converted description /// @description Initialise variables
+
+Converting GML script: ${project_dir}\objects\oHillPoint\Alarm_0.gml
+Converted description /// @description  Create segments
+
+Converting GML script: ${project_dir}\objects\oHillPoint\Draw_0.gml
+Converted description /// @description  Debug draw
+
+Converting GML script: ${project_dir}\objects\oSegment\Create_0.gml
+Converted description /// @description  Initialise start and end points
+
+Converting GML script: ${project_dir}\objects\oSegment\Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description Update segments
+
+Converting GML script: ${project_dir}\objects\oSegment\Draw_0.gml
+Converted description /// @description  Draw segment
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\oBird\Create_0.gml
+Converted description /// @description  Initialise variables and physics
+
+Converting GML script: ${project_dir}\objects\oBird\Step_0.gml
+Converted description /// @description Update player
+
+Converting GML script: ${project_dir}\objects\oBird\Collision_94cd44c9-9505-4789-83ae-ad5b7ed45702.gml
+Converted description /// @description Physics
+
+Converting GML script: ${project_dir}\objects\oBird\Collision_27a6d5a2-2eef-4bcf-9929-9c0928446ee2.gml
+Converted description /// @description Physics
+
+Converting GML script: ${project_dir}\objects\oCoin\Step_0.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted description /// @description Update coin
+
+Game speed set to 60
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
