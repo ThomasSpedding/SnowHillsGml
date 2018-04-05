@@ -22,7 +22,8 @@ CreateHillPoint();
 
 // Get the starting hill for the player and then create them (just above hill)
 startingHill = ds_list_find_value(hillPoints, 2);
-instance_create(startingHill.x, startingHill.y - (sprite_get_height(sPlayer)/2), oBird);
+instance_create(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2,
+camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2), oBird);
 
 scoreee = 0;
 clickeds = false;
