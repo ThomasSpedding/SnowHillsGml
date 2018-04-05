@@ -1,0 +1,1 @@
+x = obj_frame.x;
