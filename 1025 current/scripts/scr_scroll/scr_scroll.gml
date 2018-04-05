@@ -12,7 +12,7 @@ if (mouse_x > obj_frame.x - (sprite_get_width(spr_frame) /2) and
 
 	if (mouse_check_button(mb_left))
 	{
-		drag_speed = (obj_mouseSlow.y - obj_mouseFast.y) * speed_modifier;
+		drag_speed = (obj_mouseSlow.y - obj_mouseFast.y) * speed_modifier; 
 		y += drag_speed;
 	}
 }
