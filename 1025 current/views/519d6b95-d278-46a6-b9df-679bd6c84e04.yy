@@ -13,7 +13,10 @@
         "74ec81fc-6b92-4bed-ae46-3f1d75dc4256",
         "a6a307a9-9c9b-41b1-8841-5d4d4f2232d6",
         "4bd889b7-e201-4c09-8fc4-f2c371d0cc26",
-        "7777dc13-10b5-43dd-9166-aa25f72ad0f5"
+        "e3790514-72b7-4fb8-a66f-953b1b4e6a91",
+        "7777dc13-10b5-43dd-9166-aa25f72ad0f5",
+        "00649c7c-397f-4c0b-8511-18870fc1043a",
+        "2faffa30-0deb-4974-9aee-20e4a5fb1144"
     ],
     "filterType": "GMObject",
     "folderName": "Scroll",

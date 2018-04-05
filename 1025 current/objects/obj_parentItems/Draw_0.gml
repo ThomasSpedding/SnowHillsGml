@@ -1,8 +1,8 @@
-if (y < (obj_background.y - 200))
+if (y < (obj_background.y - 185))
 {
 	//draw_self();	
 }
-if (y > (obj_background.y + 200))
+else if (y > (obj_background.y + 185))
 {
 	//draw_self();	
 }
