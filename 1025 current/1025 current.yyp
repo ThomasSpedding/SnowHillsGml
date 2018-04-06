@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2926a0c0-01be-4ec4-b1a2-42a2c6e151dc",
+            "Value": {
+                "id": "839d7013-ebbd-48a5-b1e1-35800582a7d9",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29760c76-5fb4-49b8-909f-16216cb8373e",
             "Value": {
                 "id": "aadd0548-00fd-429b-be7a-3ec8ca97acc9",
@@ -607,14 +615,6 @@
             }
         },
         {
-            "Key": "ca75b300-7a0d-45e3-803b-0ea5878b8f86",
-            "Value": {
-                "id": "6798a207-4ad0-48ec-886f-a251494d0612",
-                "resourcePath": "rooms\\rm_scrollTest\\rm_scrollTest.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "caa0fe32-30f1-42f3-a197-e6edae6c8d3d",
             "Value": {
                 "id": "7c0e2c7a-c33b-4392-9c72-a48c27e61c66",
@@ -700,14 +700,6 @@
                 "id": "58d85c68-fe63-40ec-b000-1ab7d07be6cf",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
-            }
-        },
-        {
-            "Key": "e5b52082-f128-41d9-b4ac-2f5c04255ce3",
-            "Value": {
-                "id": "ac734dd2-3dd1-4c0a-872a-c204bb518507",
-                "resourcePath": "sprites\\spr_background\\spr_background.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
