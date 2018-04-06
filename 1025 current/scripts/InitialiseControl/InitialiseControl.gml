@@ -8,19 +8,19 @@ zoomAmplifier = .1;
 hillPoints = ds_list_create();
 
 // This is the segment width. Higher = better performace, less physics accuracy
-hillSegmentWidth = 15
+hillSegmentWidth = 12;
 
 // Set variables for the window dimensions
 winHeight = __view_get( e__VW.HView, 0 );
 winWidth = __view_get( e__VW.WView, 0 );
 
 // Minimum distance between hill points on X and Y
-minDX = 70;
+minDX = 170;
 minDY = 90; 
 
 // The range of the hill points on X and Y
-rangeDX = 230;//160
-rangeDY = 10; 
+rangeDX =110;//160
+rangeDY = 40; 
 
 // Initialise position, used for first hill point
 x = -minDX;
