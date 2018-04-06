@@ -1,4 +1,3 @@
-
 /// @description Update hill points and view
 
 // Check all hillpoints
