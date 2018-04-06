@@ -6,7 +6,7 @@ angle = arctan2(phy_linear_velocity_y, phy_linear_velocity_x)
 if (awake)
 {  
     // Multiplying by 0.5 makes the player face the way we want
-    phy_rotation = 0.5 * radtodeg(angle);   
+    phy_rotation = .8 * radtodeg(angle);   
 }
 
 // When the player is waiting to start, don't move or animate.
@@ -43,4 +43,49 @@ else
     }
    
 }
+//particles
+
+xx1= oBird.x-10;
+xx2 = oBird.x-10;
+yy1 = oBird.y + 25;
+yy2 = oBird.y + 25;
+
+part_emitter_region(part1_sys,part1_em,xx1,xx2,yy1,yy2,ps_shape_line,ps_distr_gaussian);
+part_emitter_stream(part1_sys,part1_em,part1,1);
+
+if(oBird.phy_linear_velocity_y < 400) and ( phy_linear_velocity_y > -400)
+{
+	if (alphar > 0)
+	{
+		alphar -= .025;
+		if (alphar <= 0)
+		{
+			part_type_scale(part1,0,0);
+		}
+	}
+}
+
+else if(oBird.phy_linear_velocity_y >400)
+{
+	if (alphar < 1)
+	{
+		if (alphar > 0)
+		{
+			part_type_scale(part1,1,1);
+		}
+	}
+}
+else if(oBird.phy_linear_velocity_y <-400)
+{
+	
+	if (alphar < 1)
+	{
+		alphar += .025;
+		if (alphar > 0)
+		{
+			part_type_scale(part1,1,1);	
+		}
+	}
+}
+part_type_alpha1(part1, alphar);
 
