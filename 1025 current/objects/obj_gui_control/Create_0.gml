@@ -5,9 +5,9 @@ death = false;
 
 
 if (playedd = true) and (market_store = false) and (death = false){			
-instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2),"GUI_layer", obj_play_button) ;
-instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2)+80, "GUI_layer", obj_market_button );
-instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/5, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2)+200, "GUI_layer", obj_settings);
+instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/3),"GUI_layer", obj_play_button) ;
+instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/1.5), "GUI_layer", obj_market_button );
+instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/1.1, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/100), "GUI_layer", obj_settings);
 } else if (playedd = false) and (!instance_exists(oControl))
 {
 	instance_create_layer(250, 250,"Play_layer", oControl);
