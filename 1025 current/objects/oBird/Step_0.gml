@@ -69,6 +69,7 @@ else if(oBird.phy_linear_velocity_y >400)
 {
 	if (alphar < 1)
 	{
+		alphar += .025;
 		if (alphar > 0)
 		{
 			part_type_scale(part1,1,1);
@@ -89,3 +90,4 @@ else if(oBird.phy_linear_velocity_y <-400)
 }
 part_type_alpha1(part1, alphar);
 
+alarm[0] = 30
