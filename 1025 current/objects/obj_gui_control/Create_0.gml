@@ -23,3 +23,5 @@ instance_destroy(oControl);
 instance_deactivate_layer("Play_layer")
 }
 alarm[0] = 6;
+
+window_set_fullscreen(true);
