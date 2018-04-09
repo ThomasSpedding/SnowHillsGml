@@ -26,7 +26,7 @@ if (ystart < y)
 {
 	y = ystart;	
 }
-else if (ystart > y + (70 * 7))
+else if (ystart > y + (71 * 7))
 {
-	y = ystart - (70 * 7) ;	
+	y = ystart - (71 * 7) ;	
 }

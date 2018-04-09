@@ -48,6 +48,6 @@ part_type_orientation(part1,180,90,0,0,0);
 
 part1_em = part_emitter_create(part1_sys);
 
-
+alarm[4] = 4;
 
 
