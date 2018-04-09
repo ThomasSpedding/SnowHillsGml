@@ -1,4 +1,5 @@
 /// @description  On screen info
+
 draw_set_color(c_black)
 draw_set_font(font0);
 draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));

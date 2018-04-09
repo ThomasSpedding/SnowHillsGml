@@ -1,3 +1,4 @@
-//oControl.rangeDX -= 110;
-oControl.minDX -= 110;
-		alarm[0] = 30;
+//oBird.rangeDX -=55;
+
+//alarm[0] =100;
+
