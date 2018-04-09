@@ -13,8 +13,16 @@
 //layer_x(layer_id0, camera_get_view_x(view_camera[0]));
 
 //layer_y(layer_id0, lerp(0,camera_get_view_y(view_camera[0]),0));
-
-var whatever =  sprite_get_height(spr_bg_1)-camera_get_view_height(view_camera[0]);
-layer_y(layer_id0,camera_get_view_y(view_camera[0]) - whatever);  
-
-
+if (instance_exists(oBird))
+{
+layer_hspeed("backgrounds_1", -oBird.phy_speed_x *.1);
+layer_hspeed("backgrounds_5", -oBird.phy_speed_x*0.4);
+layer_hspeed("backgrounds_2", -oBird.phy_speed_x *0.6);
+layer_hspeed("backgrounds_4", -oBird.phy_speed_x *0.8);
+} else 
+{
+layer_hspeed("backgrounds_1", -.1);
+layer_hspeed("backgrounds_5", -0.4);
+layer_hspeed("backgrounds_2", -0.6);
+layer_hspeed("backgrounds_4", -0.8);
+}

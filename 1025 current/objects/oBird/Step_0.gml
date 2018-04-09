@@ -17,7 +17,7 @@ if !awake
     phy_linear_velocity_x = 0;
     phy_linear_velocity_y = 0;
     image_speed = 0;
-    if (device_mouse_check_button(0,mb_left) or keyboard_check(vk_down))
+    if (device_mouse_check_button(0,mb_left) )
     {
         awake = true;
         image_speed = 0.1;
@@ -28,7 +28,7 @@ if !awake
 else
 {
     // Apply the downward force for a dive
-    if (keyboard_check(vk_down) or device_mouse_check_button(0,mb_left))
+    if ( device_mouse_check_button(0,mb_left))
     {
         physics_apply_force(x, y, 250, 4500);
     }

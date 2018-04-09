@@ -15,12 +15,17 @@ winHeight = __view_get( e__VW.HView, 0 );
 winWidth = __view_get( e__VW.WView, 0 );
 
 // Minimum distance between hill points on X and Y
-minDX = 170;
-minDY = 90; 
+minDX = 120;
+minDY = 100; 
 
 // The range of the hill points on X and Y
+
 rangeDX = 150;//160
 rangeDY = 40;
+
+rangeDX =110;//160
+rangeDY = 10; 
+
 
 // Initialise position, used for first hill point
 x = -minDX;

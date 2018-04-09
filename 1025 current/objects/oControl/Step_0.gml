@@ -33,6 +33,7 @@ if (newHillPoint)
 
 // keep the view on the player
 __view_set( e__VW.XView, 0, oBird.phy_position_x-150 );
+//__view_set( e__VW.YView, 0, oBird.phy_position_y-350);
 
 // If the player gets too high
 if (oBird.phy_position_y < __view_get( e__VW.HView, 0 )*0.5)
