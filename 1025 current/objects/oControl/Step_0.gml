@@ -1,4 +1,11 @@
-/// @description Update hill points and view
+ /// to die mo fo
+if (oBird.phy_linear_velocity_x < oBird.phy_linear_velocity_x* 0.1)
+{
+	
+	obj_gui_control.playedd = true;
+	obj_gui_control.market_store = false;
+	obj_gui_control.death = true;
+}
 
 // Check all hillpoints
 with (oHillPoint)
@@ -48,13 +55,6 @@ if ((oBird.phy_position_y > __view_get( e__VW.HView, 0 )*0.5) and __view_get( e_
 }
 
 
-/// to die mo fo
-if (oBird.phy_linear_velocity_x < oBird.phy_linear_velocity_x* 0.1)
-{
-obj_gui_control.playedd = true;
-obj_gui_control.market_store = false;
-obj_gui_control.death = true;
-}
 
 ///scoring system
 
@@ -62,5 +62,4 @@ obj_gui_control.death = true;
 if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 {
 scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
-
 }
