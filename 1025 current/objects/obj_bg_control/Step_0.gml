@@ -14,7 +14,6 @@
 
 //layer_y(layer_id0, lerp(0,camera_get_view_y(view_camera[0]),0));
 
-var whatever =  sprite_get_height(spr_bg_1)-camera_get_view_height(view_camera[0]);
-layer_y(layer_id0,camera_get_view_y(view_camera[0]) - whatever);  
+
 
 
