@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0d0f61a2-f52b-475c-a169-d1432de988db",
+            "Value": {
+                "id": "283f540d-893e-4a6e-b000-d626e4cd21dd",
+                "resourcePath": "views\\0d0f61a2-f52b-475c-a169-d1432de988db.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0ee56b5d-5e43-41d7-9cd5-687c416931ad",
             "Value": {
                 "id": "b849593f-c35a-4ffa-a9e5-9985807290b6",
@@ -655,6 +663,14 @@
             }
         },
         {
+            "Key": "cdbda3a0-0bc1-4e10-80d7-6ad0d36cf0f4",
+            "Value": {
+                "id": "e9a865d3-8010-4bcc-83e0-3f9ec503e7f5",
+                "resourcePath": "objects\\obj_bg_control\\obj_bg_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ce67ddba-d3ed-41c3-b737-f255012a64d0",
             "Value": {
                 "id": "24737a14-60a8-453f-9ce3-ed67f5571996",
@@ -748,6 +764,14 @@
                 "id": "0a6c23ae-3e83-46de-add9-ad132aeb16bd",
                 "resourcePath": "objects\\oBird\\oBird.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f4de38bd-bcbe-4d6d-ac1e-422ab3fb3dd5",
+            "Value": {
+                "id": "221e0c85-17d9-44de-aa55-2723e1c6d4ca",
+                "resourcePath": "sprites\\spr_bg_1\\spr_bg_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
