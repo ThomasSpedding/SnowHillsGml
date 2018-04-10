@@ -1,1 +1,2 @@
-draw_sprite_ext(sPlayer1,0,x,y,.1,.1,-phy_rotation,0,image_alpha);
+draw_sprite_ext(sPlayer11,0,x,y,.1,.1,-phy_rotation,image_blend,image_alpha);
+
