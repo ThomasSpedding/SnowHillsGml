@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "28037761-67ff-40bf-8545-6b81edc944f1",
+            "Value": {
+                "id": "7d147dce-81a8-4f26-8204-80d3ee9ed98d",
+                "resourcePath": "sprites\\spr_settings_background\\spr_settings_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2926a0c0-01be-4ec4-b1a2-42a2c6e151dc",
             "Value": {
                 "id": "839d7013-ebbd-48a5-b1e1-35800582a7d9",
@@ -844,6 +852,14 @@
                 "id": "58d85c68-fe63-40ec-b000-1ab7d07be6cf",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e5b57397-32a9-4286-b5a2-0463c9f1c6c5",
+            "Value": {
+                "id": "a886ee1a-24b7-4cad-8105-ec49d67a39b4",
+                "resourcePath": "views\\e5b57397-32a9-4286-b5a2-0463c9f1c6c5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
