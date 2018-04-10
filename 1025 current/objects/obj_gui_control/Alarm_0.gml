@@ -10,8 +10,21 @@ instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(v
 
 }
 
+if (instance_exists(oBird))
+{
+	if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
+	{
+		//scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
+		scoreee -= oBird.phy_linear_velocity_y/10000;
+	}
+}
+
 if (death = true)
 {
+	if (highScore < scoreee)
+	{
+		highScore = scoreee;
+	}	
 	scr_save();
 	if (instance_exists(oBird))
 	{
