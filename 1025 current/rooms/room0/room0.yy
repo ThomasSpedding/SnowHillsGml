@@ -75,7 +75,7 @@
             "depth": -200,
             "grid_x": 32,
             "grid_y": 32,
-            "hierarchyFrozen": false,
+            "hierarchyFrozen": true,
             "hierarchyVisible": true,
             "hspeed": 0,
             "htiled": true,
@@ -110,8 +110,13 @@
             "depth": -100,
             "grid_x": 32,
             "grid_y": 32,
+<<<<<<< HEAD
             "hierarchyFrozen": false,
             "hierarchyVisible": false,
+=======
+            "hierarchyFrozen": true,
+            "hierarchyVisible": true,
+>>>>>>> origin/Alex-v3
             "hspeed": 0,
             "htiled": true,
             "inheritLayerDepth": false,
