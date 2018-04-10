@@ -1,3 +1,4 @@
+
 newHillPoint = false;
 numStartingHillPoints = 15;
 totalHills = -1;

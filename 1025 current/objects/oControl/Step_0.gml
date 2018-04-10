@@ -61,5 +61,6 @@ if ((oBird.phy_position_y > __view_get( e__VW.HView, 0 )*0.5) and __view_get( e_
 
 if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 {
-scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
+//scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
+scoreee -= oBird.phy_linear_velocity_y/10000;
 }
