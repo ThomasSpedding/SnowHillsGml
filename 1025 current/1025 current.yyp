@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1cba8dce-19ca-4414-87b8-8e0ae97fd0d8",
+            "Value": {
+                "id": "0ee1cee1-474e-420d-9945-b5b1b27bc53a",
+                "resourcePath": "objects\\obj_fx_control1\\obj_fx_control1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ceffee0-2cd1-4935-833f-cc14f8ebfa03",
             "Value": {
                 "id": "c028982b-b815-45fd-9f42-61039135db47",
@@ -268,6 +276,14 @@
                 "id": "4927c4ab-5eff-4534-810e-3a35aaace3e3",
                 "resourcePath": "views\\41393162-a3ac-4feb-803c-ba1fc1ee1a55.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "42980e5e-518b-404f-bd32-7cf80fd4bd96",
+            "Value": {
+                "id": "51c11fc7-19fa-4716-aa45-76e5484c83f2",
+                "resourcePath": "objects\\obj_fx_control\\obj_fx_control.yy",
+                "resourceType": "GMObject"
             }
         },
         {
