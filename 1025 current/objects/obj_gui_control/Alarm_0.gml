@@ -12,6 +12,7 @@ instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(v
 
 if (death = true)
 {
+	scr_save();
 	if (instance_exists(oBird))
 	{
 		part_system_destroy(oBird.part1);
