@@ -1,8 +1,8 @@
 {
-    "id": "c99c93bd-17e3-4b6b-b2a3-ecda2e237349",
+    "id": "39c4a2b4-da61-4680-97cb-fa54499a0101",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "init_var",
+    "name": "scr_when_dead",
     "IsCompatibility": false,
     "IsDnD": false
 }
