@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 scr_highScore();
 =======
 =======
@@ -14,3 +15,6 @@ ini_close();
 >>>>>>> 77a1c68f021870c8c7ce74c729cb12c4f4f7e24e
 =======
 >>>>>>> parent of 9b1cfc2... Update
+=======
+scr_highScore();
+>>>>>>> parent of d077cf8... Merge branch 'tom-v4' of https://github.com/ThomasSpedding/SnowHillsGml into tom-v4

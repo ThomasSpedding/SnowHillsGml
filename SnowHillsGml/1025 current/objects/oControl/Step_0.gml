@@ -61,6 +61,7 @@ obj_gui_control.death = true;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 9b1cfc2... Update
@@ -83,3 +84,5 @@ scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 =======
 }
 >>>>>>> parent of 9b1cfc2... Update
+=======
+>>>>>>> parent of d077cf8... Merge branch 'tom-v4' of https://github.com/ThomasSpedding/SnowHillsGml into tom-v4
