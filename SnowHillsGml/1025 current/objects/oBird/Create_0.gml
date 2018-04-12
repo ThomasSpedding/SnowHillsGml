@@ -6,6 +6,8 @@ minVelocityY = -90;
 awake = false;
 totalCoins = 0;
 alphar = 1;
+alarm[4] = 4;
+
 // Create player fixture
 fix = physics_fixture_create(); 
 physics_fixture_set_circle_shape(fix, sprite_get_height(sprite_index)/2);
