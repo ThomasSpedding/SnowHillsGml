@@ -3,6 +3,8 @@ playedd = true;
 market_store = false;
 death = false;
 settings = false;
+music = true;
+sfx = true;
 
 if (playedd = true) and (market_store = false) and (death = false){			
 instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/3),"GUI_layer", obj_play_button) ;
@@ -23,5 +25,10 @@ instance_destroy(oControl);
 instance_deactivate_layer("Play_layer")
 }
 alarm[0] = 6;
+
+if (music = true)
+{
+	audio_play_sound(sound0,100,true);
+}
 
 window_set_fullscreen(true);
