@@ -61,6 +61,6 @@ obj_gui_control.death = true;
 
 if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 {
-scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
+obj_gui_control.scoreee = obj_gui_control.scoreee - oBird.phy_linear_velocity_y/10000;
 
 }

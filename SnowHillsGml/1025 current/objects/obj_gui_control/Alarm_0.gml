@@ -21,11 +21,7 @@ if (instance_exists(oBird))
 
 if (death = true)
 {
-	if (highScore < scoreee)
-	{
-		highScore = scoreee;
-	}	
-	scr_save1();
+	
 	if (instance_exists(oBird))
 	{
 		part_system_destroy(oBird.part1);
@@ -34,4 +30,8 @@ if (death = true)
 	scr_when_dead();
 }
 
+
+
+	
+	
 alarm[0] = 6;
