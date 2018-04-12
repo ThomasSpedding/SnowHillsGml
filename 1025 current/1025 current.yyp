@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "6f72ce7e-db97-4df8-bf0a-1c1b31c43e12",
+            "Value": {
+                "id": "bbc615c2-b1e5-4f66-ba9a-39595864b9e9",
+                "resourcePath": "scripts\\scr_save\\scr_save.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "74c348fd-e2a1-475f-b0b1-11c3f1d59ab6",
             "Value": {
                 "id": "be3cede1-b3d5-43d7-beb4-c9385d5fcaee",
@@ -688,6 +696,7 @@
         },
         {
             "Key": "ac185d9f-5717-4ded-b1f2-de30a62337b8",
+<<<<<<< HEAD
             "Value": {
                 "id": "1d848b79-b02b-4643-9b33-7ad7c289ac9f",
                 "resourcePath": "scripts\\@object_get_depth\\object_get_depth.yy",
@@ -696,6 +705,8 @@
         },
         {
             "Key": "ad4ab150-1197-4bfd-a2ad-a6bbdd5b03c6",
+=======
+>>>>>>> origin/Alex-v3
             "Value": {
                 "id": "73973b1f-4ff7-4111-96a9-24705573e70b",
                 "resourcePath": "scripts\\scr_bg_3\\scr_bg_3.yy",
@@ -1045,9 +1056,13 @@
         "c0de8c86-c547-4077-a238-30ee361fa3f4",
         "a0fd18c3-9fd4-44a7-9e86-3d77e3d609af",
         "6e8529d2-bb85-4208-8f52-e24b91467670",
+<<<<<<< HEAD
         "939d5da8-8d86-468b-9017-9981cb5910eb",
         "c6cf47e3-54f0-42db-ae14-1b04b880b960",
         "ad4ab150-1197-4bfd-a2ad-a6bbdd5b03c6"
+=======
+        "6f72ce7e-db97-4df8-bf0a-1c1b31c43e12"
+>>>>>>> origin/Alex-v3
     ],
     "tutorial": ""
 }
