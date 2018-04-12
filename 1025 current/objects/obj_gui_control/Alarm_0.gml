@@ -10,8 +10,28 @@ instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(v
 
 }
 
+if (instance_exists(oBird))
+{
+	if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
+	{
+		//scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
+		scoreee -= oBird.phy_linear_velocity_y/10000;
+	}
+}
+
 if (death = true)
 {
+
+instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0])/2),
+camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2), "GUI_market", obj_home_when_dead);
+instance_destroy(oBird);
+instance_destroy(oControl);
+instance_deactivate_layer("Play_layer")
+
+	if (highScore < scoreee)
+	{
+		highScore = scoreee;
+	}	
 	scr_save();
 	if (instance_exists(oBird))
 	{
@@ -23,6 +43,7 @@ if (death = true)
 	instance_destroy(oBird);
 	instance_destroy(oControl);
 	instance_deactivate_layer("Play_layer")
+
 }
 
 alarm[0] = 6;
