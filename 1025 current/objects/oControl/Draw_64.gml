@@ -1,19 +1,29 @@
 /// @description  On screen info
+<<<<<<< HEAD
 draw_set_color(c_black)
 draw_set_font(font0);
 draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+draw_set_color(c_black)
+draw_set_font(font0);
+draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
+>>>>>>> parent of 8ef1e51... stuff my friend
+=======
 
 //draw_set_color(c_black)
 //draw_set_font(font0);
 //draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 >>>>>>> origin/Alex-v3
+<<<<<<< HEAD
 =======
 >>>>>>> parent of b52e708... Merge branch 'tom-v2'
 =======
 >>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
+=======
+>>>>>>> parent of 8ef1e51... stuff my friend
 //draw_text(5, 25, string_hash_to_newline("New Hill Points = " + string(newHillPoint)));
 //draw_text(5, 45, string_hash_to_newline("Total Hills = " + string(totalHills)));
 //draw_text(5, 65, string_hash_to_newline("View_Height = " + string(__view_get( e__VW.HView, 0 ))));
@@ -37,6 +47,9 @@ draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8ef1e51... stuff my friend
 //draw_text(200, 165, string_hash_to_newline("current score  = " + string(floor(scoreee))));
 //draw_text(200, 185, string_hash_to_newline("oBird.phy_linear_velocity_x = " + string(oBird.phy_linear_velocity_x)));
 =======
@@ -45,6 +58,7 @@ draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 //draw_text(200, 205, "highScore = " + string(obj_gui_control.highScore));
 
 >>>>>>> origin/Alex-v3
+<<<<<<< HEAD
 =======
 //draw_text(200, 165, string_hash_to_newline("current score  = " + string(floor(scoreee))));
 //draw_text(200, 185, string_hash_to_newline("oBird.phy_linear_velocity_x = " + string(oBird.phy_linear_velocity_x)));
@@ -53,4 +67,6 @@ draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 //draw_text(200, 165, string_hash_to_newline("current score  = " + string(floor(scoreee))));
 //draw_text(200, 185, string_hash_to_newline("oBird.phy_linear_velocity_x = " + string(oBird.phy_linear_velocity_x)));
 >>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
+=======
+>>>>>>> parent of 8ef1e51... stuff my friend
 

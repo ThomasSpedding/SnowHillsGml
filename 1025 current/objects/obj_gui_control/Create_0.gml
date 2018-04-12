@@ -5,17 +5,23 @@ death = false;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8ef1e51... stuff my friend
 settings = false;
 =======
 scoreee = 0;
 highScore = 0;
 >>>>>>> origin/Alex-v3
+<<<<<<< HEAD
 =======
 
 >>>>>>> parent of b52e708... Merge branch 'tom-v2'
 =======
 settings = false;
 >>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
+=======
+>>>>>>> parent of 8ef1e51... stuff my friend
 
 if (playedd = true) and (market_store = false) and (death = false){			
 instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/3),"GUI_layer", obj_play_button) ;
