@@ -11,11 +11,7 @@
         "29760c76-5fb4-49b8-909f-16216cb8373e",
         "ebcf392a-1884-4588-8547-d49bfd1e6806",
         "0809b67b-0518-4bb3-a81b-818005fd6b6f",
-<<<<<<< HEAD
         "39c4a2b4-da61-4680-97cb-fa54499a0101"
-=======
-        "c99c93bd-17e3-4b6b-b2a3-ecda2e237349"
->>>>>>> 2587f435beefcd986c2639812ff9729a38a1f5c0
     ],
     "filterType": "GMScript",
     "folderName": "scripts",

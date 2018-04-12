@@ -8,9 +8,7 @@ music = true;
 sfx = true;
 
 scoreee = 0;
-init_var();
-alarm[0] = 6;
-
+highScore = 0;
 
 
 if (playedd = true) and (market_store = false) and (death = false){			
@@ -31,7 +29,7 @@ instance_destroy(oBird);
 instance_destroy(oControl);
 instance_deactivate_layer("Play_layer")
 }
-
+alarm[0] = 6;
 
 if (music = true)
 {
