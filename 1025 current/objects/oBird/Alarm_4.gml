@@ -1,4 +1,4 @@
-if(obj_gui_control.scoreee >5) or (obj_gui_control.scoreee = 5){
+if(oControl.scoreee >5) or (oControl.scoreee = 5){
 	oControl.rangeDX -= .035;
 }
 if(oControl.rangeDX <= 25){

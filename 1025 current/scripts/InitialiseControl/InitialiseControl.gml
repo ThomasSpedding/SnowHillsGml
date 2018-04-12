@@ -19,8 +19,13 @@ minDX = 120;
 minDY = 100; 
 
 // The range of the hill points on X and Y
+
+rangeDX = 150;//160
+rangeDY = 40;
+
 rangeDX =110;//160
 rangeDY = 10; 
+
 
 // Initialise position, used for first hill point
 x = -minDX;

@@ -3,12 +3,15 @@
 draw_set_color(c_black)
 draw_set_font(font0);
 draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
+<<<<<<< HEAD
 =======
 
 //draw_set_color(c_black)
 //draw_set_font(font0);
 //draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 >>>>>>> origin/Alex-v3
+=======
+>>>>>>> parent of b52e708... Merge branch 'tom-v2'
 //draw_text(5, 25, string_hash_to_newline("New Hill Points = " + string(newHillPoint)));
 //draw_text(5, 45, string_hash_to_newline("Total Hills = " + string(totalHills)));
 //draw_text(5, 65, string_hash_to_newline("View_Height = " + string(__view_get( e__VW.HView, 0 ))));
@@ -30,6 +33,7 @@ draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 //draw_text(200, 125, string_hash_to_newline("oBird.y  = " + string(oBird.phy_position_y)));
 //draw_text(200, 145, string_hash_to_newline("Window Height  = " + string(window_get_height())));
 <<<<<<< HEAD
+<<<<<<< HEAD
 //draw_text(200, 165, string_hash_to_newline("current score  = " + string(floor(scoreee))));
 //draw_text(200, 185, string_hash_to_newline("oBird.phy_linear_velocity_x = " + string(oBird.phy_linear_velocity_x)));
 =======
@@ -38,4 +42,8 @@ draw_text(5,5,string_hash_to_newline("fps = " + string(fps)));
 //draw_text(200, 205, "highScore = " + string(obj_gui_control.highScore));
 
 >>>>>>> origin/Alex-v3
+=======
+//draw_text(200, 165, string_hash_to_newline("current score  = " + string(floor(scoreee))));
+//draw_text(200, 185, string_hash_to_newline("oBird.phy_linear_velocity_x = " + string(oBird.phy_linear_velocity_x)));
+>>>>>>> parent of b52e708... Merge branch 'tom-v2'
 

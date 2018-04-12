@@ -16,7 +16,7 @@ physics_fixture_set_friction(fix, 0.0);
 physics_fixture_set_awake(fix, false);
 physics_fixture_bind(fix, id);
 
-///partivles
+///particles
 
 xx1= oBird.x-(oBird.sprite_height/2)-(oBird.sprite_width/2);
 xx2 = oBird.x-(oBird.sprite_height/2)+(oBird.sprite_width/2);
@@ -48,6 +48,6 @@ part_type_orientation(part1,180,90,0,0,0);
 
 part1_em = part_emitter_create(part1_sys);
 
-
+alarm[4] = 4;
 
 
