@@ -64,3 +64,4 @@ if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 
 }
+
