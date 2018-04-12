@@ -3,8 +3,14 @@ playedd = true;
 market_store = false;
 death = false;
 settings = false;
+<<<<<<< HEAD
 music = true;
 sfx = true;
+=======
+scoreee = 0;
+highScore = 0;
+
+>>>>>>> d1ecd9fc386d4780e271eeb6e896935633127949
 
 if (playedd = true) and (market_store = false) and (death = false){			
 instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/3),"GUI_layer", obj_play_button) ;
