@@ -1,6 +1,3 @@
-
-
-
 if(obj_gui_control.scoreee >5) or (obj_gui_control.scoreee = 5){
 	oControl.rangeDX -= .055;
 }

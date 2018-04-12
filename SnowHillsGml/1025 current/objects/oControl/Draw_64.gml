@@ -24,4 +24,6 @@ draw_text(200, 125, string_hash_to_newline("oBird.y  = " + string(oBird.phy_posi
 draw_text(200, 145, string_hash_to_newline("Window Height  = " + string(window_get_height())));
 draw_text(200, 165, string_hash_to_newline("current score  = " + string(floor(scoreee))));
 draw_text(200, 185, string_hash_to_newline("oBird.phy_linear_velocity_x = " + string(oBird.phy_linear_velocity_x)));
+draw_text(200, 205, "highScore = " + string(obj_gui_control.highScore));
+
 
