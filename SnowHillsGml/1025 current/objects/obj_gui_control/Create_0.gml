@@ -6,9 +6,9 @@ settings = false;
 
 music = true;
 sfx = true;
-
 scoreee = 0;
-highScore = 0;
+
+scr_highScore();
 
 
 if (playedd = true) and (market_store = false) and (death = false){			
@@ -27,7 +27,7 @@ instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(v
 camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2), "GUI_market", obj_home_when_dead);
 instance_destroy(oBird);
 instance_destroy(oControl);
-instance_deactivate_layer("Play_layer")
+instance_deactivate_layer("Play_layer");
 }
 alarm[0] = 6;
 
