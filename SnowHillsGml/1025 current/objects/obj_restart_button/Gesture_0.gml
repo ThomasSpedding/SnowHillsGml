@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this edit
 instance_destroy(oSegment);
-instance_destroy(oHillPoint);
+instance_destroy(all, oHillPoint);
 instance_destroy(oControl);
 instance_destroy(oCoin);
 instance_destroy(oBird);
