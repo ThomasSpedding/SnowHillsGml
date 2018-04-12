@@ -6,7 +6,7 @@ var cgy = camera_get_view_y(view_camera[0]);
 
 instance_create_layer(cgx+(cgw)/1.12,cgy +cgh/100, "GUI_market", obj_home_button);
 
-//instance_create_layer(cgx+(cgw)/1.12,cgy +cgh/100, "GUI_market", obj_home_button);
+instance_create_layer(cgx+(cgw)/1.12,cgy +cgh/100, "GUI_market", obj_home_button);
 
 instance_create_layer(cgx+(cgw)*.43,cgy +cgh/2.7, "GUI_market", obj_music_control);
 
