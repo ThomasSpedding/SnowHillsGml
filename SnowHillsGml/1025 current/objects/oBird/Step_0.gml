@@ -90,4 +90,8 @@ else if(oBird.phy_linear_velocity_y <-400)
 }
 part_type_alpha1(part1, alphar);
 
-alarm[0] = 30
+
+
+
+
+
