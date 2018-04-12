@@ -981,13 +981,15 @@
         "c0de8c86-c547-4077-a238-30ee361fa3f4",
         "a0fd18c3-9fd4-44a7-9e86-3d77e3d609af",
         "6e8529d2-bb85-4208-8f52-e24b91467670",
-<<<<<<< HEAD
         "939d5da8-8d86-468b-9017-9981cb5910eb",
         "c6cf47e3-54f0-42db-ae14-1b04b880b960",
         "ad4ab150-1197-4bfd-a2ad-a6bbdd5b03c6"
+<<<<<<< HEAD
 =======
         "abe9cc4c-737e-43c8-a279-494743f399ad"
 >>>>>>> origin/Alex-v3
+=======
+>>>>>>> parent of 91a6143... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
     ],
     "tutorial": ""
 }
