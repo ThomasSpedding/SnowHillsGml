@@ -21,11 +21,7 @@ if (instance_exists(oBird))
 
 if (death = true)
 {
-	if (highScore < scoreee)
-	{
-		highScore = scoreee;
-	}	
-	scr_save1();
+	
 	if (instance_exists(oBird))
 	{
 		part_system_destroy(oBird.part1);
@@ -38,4 +34,8 @@ if (death = true)
 	instance_deactivate_layer("Play_layer")
 }
 
+
+
+	
+	
 alarm[0] = 6;
