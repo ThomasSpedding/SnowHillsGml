@@ -31,11 +31,7 @@ if (death = true)
 		part_system_destroy(oBird.part1);
 		part_system_destroy(oBird.part1_sys);
 	}
-	instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0])/2),
-	camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2), "GUI_market", obj_home_when_dead);
-	instance_destroy(oBird);
-	instance_destroy(oControl);
-	instance_deactivate_layer("Play_layer")
+	scr_when_dead();
 }
 
 alarm[0] = 6;
