@@ -343,6 +343,25 @@
             }
         },
         {
+<<<<<<< HEAD
+=======
+            "Key": "52290f9c-34b9-4160-9a95-985e0ad11f01",
+            "Value": {
+                "id": "80ed06c3-ab76-41bf-8c56-fa6159a8fb39",
+                "resourcePath": "sprites\\spr_sound_on\\spr_sound_on.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "589ac9d9-2f05-42e7-b966-8d7626ff8b29",
+            "Value": {
+                "id": "234feb40-2124-4375-aff2-b67e2d3c2102",
+                "resourcePath": "sprites\\sPlayer1\\sPlayer1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+>>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
             "Key": "5de15deb-1034-409b-b85a-c4141add9d40",
             "Value": {
                 "id": "262f4cd6-4a00-4c06-9146-b93d68a82ecf",

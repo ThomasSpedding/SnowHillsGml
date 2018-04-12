@@ -14,11 +14,15 @@ if (death = true)
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
 instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0])/2),
 camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2), "GUI_market", obj_home_when_dead);
 instance_destroy(oBird);
 instance_destroy(oControl);
 instance_deactivate_layer("Play_layer")
+<<<<<<< HEAD
 =======
 	if (highScore < scoreee)
 	{
@@ -41,6 +45,8 @@ instance_deactivate_layer("Play_layer")
 >>>>>>> origin/Alex-v3
 =======
 >>>>>>> parent of b52e708... Merge branch 'tom-v2'
+=======
+>>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
 }
 
 alarm[0] = 6;

@@ -40,8 +40,13 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+<<<<<<< HEAD
             "enumb": 2,
             "eventtype": 7,
+=======
+            "enumb": 0,
+            "eventtype": 8,
+>>>>>>> parent of 05a3646... Merge remote-tracking branch 'origin/Alex-v3' into tom-v2
             "m_owner": "849967b0-4b59-47ad-bb8d-c7646aec14b5"
         }
     ],
