@@ -65,6 +65,10 @@ if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 {
 scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 
+<<<<<<< HEAD
 }
 
 >>>>>>> 77a1c68f021870c8c7ce74c729cb12c4f4f7e24e
+=======
+}
+>>>>>>> parent of 77a1c68... lots

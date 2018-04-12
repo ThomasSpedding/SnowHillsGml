@@ -1,5 +1,4 @@
 /// @description  Initialise variables and starting hills
-
 randomize();
 global.debug = false;
 // A variable used during the creation of hill points to make sure 2 in a row have coins

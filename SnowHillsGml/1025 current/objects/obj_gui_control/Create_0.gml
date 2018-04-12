@@ -3,7 +3,6 @@ playedd = true;
 market_store = false;
 death = false;
 settings = false;
-bank = 0;
 
 music = true;
 sfx = true;
