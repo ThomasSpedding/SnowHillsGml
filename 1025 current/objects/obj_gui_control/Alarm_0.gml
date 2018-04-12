@@ -21,13 +21,13 @@ if (instance_exists(oBird))
 
 if (death = true)
 {
-<<<<<<< HEAD
+
 instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0])/2),
 camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/2), "GUI_market", obj_home_when_dead);
 instance_destroy(oBird);
 instance_destroy(oControl);
 instance_deactivate_layer("Play_layer")
-=======
+
 	if (highScore < scoreee)
 	{
 		highScore = scoreee;
@@ -43,7 +43,7 @@ instance_deactivate_layer("Play_layer")
 	instance_destroy(oBird);
 	instance_destroy(oControl);
 	instance_deactivate_layer("Play_layer")
->>>>>>> origin/Alex-v3
+
 }
 
 alarm[0] = 6;

@@ -59,16 +59,14 @@ obj_gui_control.death = true;
 ///scoring system
 
 
-<<<<<<< HEAD
 if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 {
 scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 
 }
-=======
+
 //if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 //{
 ////scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 //scoreee -= oBird.phy_linear_velocity_y/10000;
 //}
->>>>>>> origin/Alex-v3
