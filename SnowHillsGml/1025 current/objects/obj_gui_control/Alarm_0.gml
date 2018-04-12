@@ -25,7 +25,7 @@ if (death = true)
 	{
 		highScore = scoreee;
 	}	
-	scr_save();
+	//scr_save();
 	if (instance_exists(oBird))
 	{
 		part_system_destroy(oBird.part1);
