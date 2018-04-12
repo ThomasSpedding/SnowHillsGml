@@ -60,11 +60,15 @@ obj_gui_control.death = true;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 9b1cfc2... Update
 if (oBird.phy_linear_velocity_y > oBird.phy_linear_velocity_y* 2)
 {
 scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -76,3 +80,6 @@ scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 =======
 }
 >>>>>>> parent of 77a1c68... lots
+=======
+}
+>>>>>>> parent of 9b1cfc2... Update
