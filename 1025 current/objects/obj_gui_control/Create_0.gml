@@ -2,7 +2,12 @@
 playedd = true;
 market_store = false;
 death = false;
+<<<<<<< HEAD
 settings = false;
+=======
+scoreee = 0;
+highScore = 0;
+>>>>>>> origin/Alex-v3
 
 if (playedd = true) and (market_store = false) and (death = false){			
 instance_create_layer(camera_get_view_x(view_camera[0])+(camera_get_view_width(view_camera[0]))/2, camera_get_view_y(view_camera[0])+(camera_get_view_height(view_camera[0])/3),"GUI_layer", obj_play_button) ;
