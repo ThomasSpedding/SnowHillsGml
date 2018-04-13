@@ -72,6 +72,7 @@ scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 >>>>>>> 77a1c68f021870c8c7ce74c729cb12c4f4f7e24e
@@ -86,3 +87,8 @@ scoreee = scoreee - oBird.phy_linear_velocity_y/10000;
 >>>>>>> parent of 9b1cfc2... Update
 =======
 >>>>>>> parent of d077cf8... Merge branch 'tom-v4' of https://github.com/ThomasSpedding/SnowHillsGml into tom-v4
+=======
+}
+
+>>>>>>> 77a1c68f021870c8c7ce74c729cb12c4f4f7e24e
+>>>>>>> parent of 7dc1ef1... e
